@@ -1,0 +1,124 @@
+SAMPLE RUNS (real runs of the compiled programs; the typed input is shown in the header line, so it does not appear again after each prompt)
+
+=== pcm_average_eligibility  (input: 60
+55
+40
+)
+Enter marks in Physics (out of 100): Enter marks in Chemistry (out of 100): Enter marks in Maths (out of 100): 
+Average marks in PCM = 51.67%
+Result: Eligible for admission
+
+=== even_odd  (input: 7
+)
+Enter an integer: 7 is an ODD number.
+
+=== sum_odd_numbers  (input: 1
+10
+)
+Enter the first number: Enter the second number: Odd numbers between 1 and 10: 3 5 7 9 
+Sum of odd numbers = 24
+
+=== prime_numbers  (input: 10
+30
+)
+Enter the starting number: Enter the ending number: Prime numbers between 10 and 30 are:
+11 13 17 19 23 29 
+
+=== fibonacci_iterative  (input: 8
+)
+Enter the number of terms: Fibonacci series (iterative) for 8 terms:
+0 1 1 2 3 5 8 13 
+
+=== fibonacci_recursive  (input: 8
+)
+Enter the number of terms: Fibonacci series (recursive) for 8 terms:
+0 1 1 2 3 5 8 13 
+
+=== function_call_counter  (input: 3
+)
+How many times do you want to call the function? Function called 1 time(s)
+   auto = 1, register = 1, extern (global) = 1
+Function called 2 time(s)
+   auto = 1, register = 1, extern (global) = 2
+Function called 3 time(s)
+   auto = 1, register = 1, extern (global) = 3
+
+Final count from global variable = 3
+
+=== largest_in_array  (input: 5
+3
+9
+-2
+7
+4
+)
+Enter the number of elements (1 to 100): Enter element 1: Enter element 2: Enter element 3: Enter element 4: Enter element 5: The largest element is 9
+
+=== matrix_sum  (input: 2
+2
+1 2
+3 4
+5 6
+7 8
+)
+Enter number of rows (max 10): Enter number of columns (max 10): Enter elements of first matrix:
+A[0][0] = A[0][1] = A[1][0] = A[1][1] = Enter elements of second matrix:
+B[0][0] = B[0][1] = B[1][0] = B[1][1] = 
+Sum of the two matrices:
+    6    8
+   10   12
+
+=== string_length  (input: Hello World
+)
+Enter a string: Length of the string = 11
+
+=== palindrome_string  (input: madam
+)
+Enter a string (without spaces): "madam" is a palindrome.
+
+=== student_topper  (input: A
+1
+400
+B
+2
+450.5
+C
+3
+300
+D
+4
+420
+E
+5
+380
+)
+
+Enter details of student 1
+Name (no spaces): Roll number: Total marks obtained: 
+Enter details of student 2
+Name (no spaces): Roll number: Total marks obtained: 
+Enter details of student 3
+Name (no spaces): Roll number: Total marks obtained: 
+Enter details of student 4
+Name (no spaces): Roll number: Total marks obtained: 
+Enter details of student 5
+Name (no spaces): Roll number: Total marks obtained: 
+===== TOPPER =====
+Name         : B
+Roll number  : 2
+Total marks  : 450.50
+
+=== add_using_pointers  (input: 12
+30
+)
+Enter first number: Enter second number: Sum = 12 + 30 = 42
+
+=== reverse_array_pointers  (input: 5
+1
+2
+3
+4
+5
+)
+Enter the number of elements (1 to 50): Enter element 1: Enter element 2: Enter element 3: Enter element 4: Enter element 5: Array in reverse order: 5 4 3 2 1 
+
